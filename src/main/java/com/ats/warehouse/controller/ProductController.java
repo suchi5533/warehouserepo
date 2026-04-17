@@ -9,7 +9,7 @@ public class ProductController {
 @GetMapping("/test")
 public String testApi()
 {
-    return "warehouse management system in Mahindra chakan";
+    return "warehouse management system in Fiat Ranjangaon";
 }
 
 }
