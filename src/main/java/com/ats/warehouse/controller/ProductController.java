@@ -9,7 +9,7 @@ public class ProductController {
 @GetMapping("/test")
 public String testApi()
 {
-    return "warehouse management system";
+    return "warehouse management system in Ats conveyor";
 }
 
 }
