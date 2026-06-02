@@ -21,7 +21,7 @@ public String homeScrren()
 @GetMapping("/dashboard")
 public String dashScrren()
 {
-	return "Dashboard screen of asrs"; 
+	return "Dashboard screen of asrs WMS";
 }
 
 }
