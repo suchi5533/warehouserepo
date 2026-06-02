@@ -9,7 +9,19 @@ public class ProductController {
 @GetMapping("/test")
 public String testApi()
 {
-    return "warehouse management system in Fiat Ranjangaon";
+    return "warehouse management system in Fiat ASRS";
+}
+@GetMapping("/home")
+public String homeScrren()
+{
+	return "home screen of asrs"; 
+}
+
+
+@GetMapping("/dashboard")
+public String dashScrren()
+{
+	return "Dashboard screen of asrs"; 
 }
 
 }
